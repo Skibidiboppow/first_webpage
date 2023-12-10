@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yah Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav>
+        <div>
+           
+            <span>Ruprabh</span>
+        </div>
+        <div>
+            <a href="#main">Home</a>
+            <a href="#abtme">About</a>
+            <a href="#mywork">Works/Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div id="main">
+        <div id="intro" >
+            <span>Keen Learner</span>
+           
+            <h1>Hi, I am Ruprabh</h1> 
+            
+            <h3>from Kharagpur</h3>
+        </div>
+        <div id = "myimg">
+            <img src="pic1.jpg" alt="An image" id = "img1">
+        </div>
+    </div>
+
+
+    <div id="abtme">
+        
+        <div id="myimg2">
+            <img src="me.jpg" alt="" id="mm1">
+            <!-- <img src="ginfun.jpg" alt="" id="mm2"> -->
+        </div>
+        <div class="resume-section">
+            <h1>ABOUT ME</h1>
+
+            Currently in my third year of undergraduate studies at IIT Kharagpur, I am pursuing a dual degree in the Department of Industrial and Systems Engineering. This academic journey at one of India's premier institutions has been intellectually enriching, providing me with a comprehensive understanding of industrial systems. Engaging in a rigorous curriculum and collaborative learning environment, I've had the opportunity to delve into various aspects of engineering and systems, laying a strong foundation for my future endeavors.            <br>
+            <br>
+            <div id="bar">
+                <div class="category" onclick="showInfo('skills')">Skills</div>
+                <div class="category" onclick="showInfo('experience')">Experience</div>
+                <div class="category" onclick="showInfo('education')">Education</div>
+            </div>
+            
+          
+            <div class="info" id="skills-info">
+            __^_________________________________
+            <br>
+                <p>Proficient in web development, data structures, and algorithms, I bring a versatile skill set to the table. With a keen eye for problem-solving, I navigate the intricacies of coding challenges effortlessly. Additionally, my expertise extends to data analysis and machine learning, contributing to a holistic understanding of software development and computational problem-solving.</p>
+            </div>
+            
+            <div class="info" id="experience-info">
+            ____________^_______________________    
+            <br>
+              <p>I've garnered valuable experience through collaborative projects under two esteemed professors, contributing to cutting-edge research in diverse domains. Furthermore, I successfully underwent an interview process at the National Defense Academy, showcasing my commitment to excellence in both academic and professional pursuits.</p>
+            </div>
+            
+            <div class="info" id="education-info">
+            _________________________^__________ 
+            <br>  
+            <p>I completed my secondary education until Class 12 at Kendriya Vidyalaya Number 2, Kharagpur. Currently, I am enrolled in the dual degree program in Industrial and Systems Engineering at IIT Kharagpur, currently in my third year of the B.Tech + M.Tech course. This educational journey has provided me with a strong foundation and diverse experiences to thrive academically.</p>
+            
+        </div>
+        </div>
+
+    </div>
+    
+    <div id="mywork">
+        <h1>My Works</h1>
+        <div>
+            <div class = "work">
+                <h2>Game Theory in Cyber Security</h2>
+                <img src="proj1.png" alt="" >
+                <p>
+                    I am currently collaborating with Professor Sayak Roychowdhury on the intriguing intersection of game theory and cybersecurity. Under his mentorship, I am delving into dynamic models that analyze strategic interactions in the realm of cyber threats and defenses. Our research explores innovative approaches to enhance cybersecurity strategies, leveraging game-theoretic frameworks to address the evolving landscape of cyber risks. Working with Professor Roychowdhury provides a valuable opportunity to contribute to the field's knowledge and develop practical solutions for cyber resilience.</p>
+                
+            </div>
+            <div class = "work">
+                <h2>Differential Pricing in Supply Chain</h2>
+                <img src="proj2.jpg" alt="">
+                <p>Under Professor Abhishek Sharma's mentorship, I'm delving into the realm of differential pricing in supply chains. This research explores how manufacturers and retailers make pricing decisions, especially regarding product variants. The goal is to uncover insights that can enhance supply chain management strategies and contribute to overall profitability.</p>
+                
+            </div>
+            <div class = "work">
+                <h2>Portfolio Website</h2>
+                <img src="proj3.jpg" alt="">
+                <p>
+                    Creating my portfolio website was an exciting journey where I combined design and coding skills. I carefully curated sections to showcase my skills, experience, and projects. The user-friendly interface ensures easy navigation, and the minimalist design emphasizes content. Integrating HTML, CSS, and JavaScript, I crafted a responsive site that reflects my professional identity and serves as a digital representation of my work and accomplishments.
+                </p>
+                
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        
+        <div>
+            
+            <div id="left">
+                <h1>Contact me</h1>
+                <img src="robot.jpg" id="robot" alt="">
+                <ul>
+                    <li><a href="mailto:ruprabh@gmail.com"><img src="mail.png" alt=""> </a></li>
+                    <li><a href="https://www.instagram.com/rup.rabh/"><img src="instagram.png" alt=""> </a></li>
+                    <li><a href="https://www.linkedin.com/in/ruprabhkumar/"><img src="linkedin.png" alt=""> </a></li>
+                    <li><a href="https://twitter.com/RUPR4BH"><img src="twitter.png" alt=""> </a></li>
+                    
+                </ul>
+                <p id ="download"><a href="cv.txt" download>Download CV</a></p>
+                
+                
+            </div>
+            <div id="right">
+                <input type="text" name="name" class="review" placeholder="Your Name">
+                <input type="text" name="email" class="review" placeholder="Your Email">
+                <textarea id="message" name="message" rows="8" cols="30" placeholder="Type your message here..."></textarea>
+                
+            </div>
+        </div>
+    </div>
+        
+
+    <footer>
+        <p>&copy; 2023 My attempt. All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js" defer></script>
+</html>

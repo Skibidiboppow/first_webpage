@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 60px; 
+    color: white;
+}
+nav a{
+    padding: 10px;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+#main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color:cornsilk;
+}
+#img1{
+    padding: 10%;
+    width:80%;
+    height: 90%;
+}
+
+#intro{
+    font-family: monospace;
+    font-size: x-large;
+    padding: 10% 5% 5% 10%;;
+    width:70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightblue;
+    border: 10px solid blue;
+    border-radius: 5px; */
+}
+
+
+#abtme{
+    align-items: center;
+    display: flex;
+    background-color: lightseagreen;
+}
+
+#myimg2{
+    padding:10%;
+    background-image: none;
+    transition:background-image 0.4s ease ;
+}
+#abtme:hover{
+    
+    background-image:  url("frame.jpg");
+    
+}
+
+
+.resume-section {
+    display: flex;
+
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 20px;
+    background-color: lightseagreen;
+  }
+  
+  .category {
+    cursor: pointer;
+    padding: 10px;
+    background-color:black ;
+    color: white;
+    gap: 10px;
+    border: 5px groove ;
+
+    text-align: center;
+  }
+  .category:hover{
+    color: grey;
+  }
+  .info {
+    
+    display: none;
+    width:400px;
+    height:200px;
+    padding: 10px;
+
+    margin-top: 10px;
+  }
+  .resume-section #bar{
+   display: flex; 
+   flex-direction: row;
+   
+  }
+#mywork {
+    padding: 10px;
+    align-items: center;
+    
+    background-color:yellow;
+}
+#mywork > h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 55px;
+    box-shadow: 5px 2px;
+}
+#mywork > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+#mywork > div img{
+    width:400px;
+    height:300px;
+    padding: 5%;
+    border-radius: 100px;
+}
+
+#mywork > div p{
+    width:400px;
+
+    padding: 5%;
+    
+}
+.work{
+    width: 30%;
+    
+    /* border: 10px solid green; */
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    background-color:sandybrown;
+    transition: box-shadow 0.4s ease;
+    border-radius: 10px;
+}
+
+.work:hover{
+    box-shadow: 5px 5px 50px green ;
+}
+
+.work h2{
+
+    padding: 0px 9px;
+}
+#contact{
+    font-family:'Courier New', Courier, monospace ;
+    background-color: rgb(255, 0, 115);
+}
+
+#contact > div {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#contact >div:hover{
+    flex-direction: row;
+}
+
+#contact > div > div{    
+    padding:10% 0%;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+#left{
+    transition: background-color 0.3s ease;
+}
+#left ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  justify-content: center;
+    
+    gap: 50px;
+}
+#left li img{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    
+}
+#left li img:hover{
+    box-shadow: 5px 5px 10px black;
+
+}
+
+#right{
+    /* padding: 40%; */
+    width:200%;
+    display: flex;
+    flex-direction: column;
+
+    gap:30px;
+    transition: background-color 0.3s ease;
+}
+
+.review{
+    font-size: 20px;
+    width: 400px;
+    height:30px;
+    background-color: greenyellow;
+    
+}
+textarea{
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+#right:hover {
+    background-color: #2980b9;
+  }
+#left:hover {
+    background-color: rgb(0, 55, 255);
+}
+
+#robot{
+    height: 70px;
+
+}
+#download{
+    box-sizing: border-box;
+    margin:100px 10px;
+    padding: 10px;
+    display: inline;
+    border: 5px solid black;
+    background-color: pink;
+
+}
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    border: 0px;
+    bottom: 0;
+    width: 100%;
+}
